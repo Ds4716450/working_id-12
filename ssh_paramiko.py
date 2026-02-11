@@ -9,7 +9,7 @@ ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
  
 ssh.connect('10.0.4.253', port=22, username='vcti',
-            password='inD@18us', timeout=3)
+            password='XXXXX', timeout=3)
  
 # Execute command on SSH terminal 
 # using exec_command
